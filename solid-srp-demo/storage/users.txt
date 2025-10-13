@@ -1,0 +1,19 @@
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"João","email":"joao@email.com","password":"Senha123"}
+{"name":"SAMARA ADORNO","email":"samara@email.com","password":"$2y$10$fIK6MoOvOZps7tL2Orwf5OEy0YPlSEUSAUDkWX\/VVPB2IHSFhqAIu"}
+{"name":"Samara Adorno ","email":"samara@email.com","password":"$2y$10$rYzLqr0MNJZ9h0T97PRKt.p9g3MYZftRz0zq1JvLVHT4xJjrue0xm"}
+{"name":"Samara Adorno ","email":"samara@email.com","password":"$2y$10$9HoiRKCdBHgSXlHQnU3C5OyHk26gazhVYUWbBz2SenTTPvtRg3LnS"}
+{"name":"Samara Adorno ","email":"samara@email.com","password":"$2y$10$qaI9aHUVlGUZ1PxJjOGKSuXWQVjz9hxLmmCLYS4ffUY1UaahhoeT2"}
+{"name":"Milena Adorno","email":"milena@email.com","password":"$2y$10$PhNHCB\/h.CurxSx21furQelu24JR9E50X8psXTDrtEkffyz7NOxdS"}
+{"name":"Milena Adorno","email":"milena@email.com","password":"$2y$10$Dq2aLAo.B466JD4.4pkab.Mt4w1hlGA65tH7Eae2pDS.exLy7btXO"}
