@@ -17,3 +17,5 @@
 {"name":"Samara Adorno ","email":"samara@email.com","password":"$2y$10$qaI9aHUVlGUZ1PxJjOGKSuXWQVjz9hxLmmCLYS4ffUY1UaahhoeT2"}
 {"name":"Milena Adorno","email":"milena@email.com","password":"$2y$10$PhNHCB\/h.CurxSx21furQelu24JR9E50X8psXTDrtEkffyz7NOxdS"}
 {"name":"Milena Adorno","email":"milena@email.com","password":"$2y$10$Dq2aLAo.B466JD4.4pkab.Mt4w1hlGA65tH7Eae2pDS.exLy7btXO"}
+{"name":"Maisa Amaral","email":"maisa@email.com","password":"$2y$10$Yv1HP2qdyDFT8BlG5gFMO.mM4XFU5tvnaR\/v.hVPIvFfjJvNdKtM6"}
+{"name":"Simone Siqueira","email":"simone@email.com","password":"$2y$10$h0cMglSEe21XjEyx\/33AsOnFkQcs5k4CyOHI1ML8.dG\/GELvjrf1q"}

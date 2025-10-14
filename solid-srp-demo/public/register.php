@@ -18,4 +18,4 @@ $ok = $service->register($_POST);
 
 http_response_code($ok ? 201 : 422);
 
-echo $ok ? 'Usuário cadastrado com sucesso' : 'Falha na validação (e-mail ou senha)';
+echo $ok ? 'Usuário cadastrado com sucesso!' : 'Erro ao cadastrar usuário. Verifique os dados e tente novamente.';
