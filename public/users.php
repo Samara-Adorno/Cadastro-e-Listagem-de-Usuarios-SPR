@@ -95,6 +95,6 @@ $users = $service->listUsers();
 
     <?php endif; ?>
     
-    <a href="/Cadastro-e-Listagem-de-Usuarios-SPR/solid-srp-demo/public/">Cadastrar novo usuário</a>
+    <a href="/Cadastro-e-Listagem-de-Usuarios-SPR/public/index.php">Cadastrar novo usuário</a>
 </body>
 </html>

@@ -76,7 +76,7 @@ require __DIR__ . '/../vendor/autoload.php';
 </head>
 <body>
     <h1>Cadastro de Usuário (SRP)</h1>
-    <form method="post" action="/Cadastro-e-Listagem-de-Usuarios-SPR/solid-srp-demo/public/register.php">
+    <form method="post" action="/Cadastro-e-Listagem-de-Usuarios-SPR/public/register.php">
         <label>Nome:</label>
         <input name="name" required>
         <label>E-mail:</label>
@@ -85,6 +85,6 @@ require __DIR__ . '/../vendor/autoload.php';
         <input name="password" type="password" required>
         <button type="submit"><h3>Cadastrar</h3></button>
     </form>
-    <a href="/Cadastro-e-Listagem-de-Usuarios-SPR/solid-srp-demo/public/users.php">Ver Usuários Cadastrados</a>
+    <a href="/Cadastro-e-Listagem-de-Usuarios-SPR/public/users.php">Ver Usuários Cadastrados</a>
 </body>
 </html>
