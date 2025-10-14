@@ -11,7 +11,7 @@ require __DIR__ . '/../vendor/autoload.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SRP Demo</title>
+    <title>Cadastro de Usuário (SRP)</title>
     <style>
     body{
         font-family:system-ui,Segoe UI,Arial;
