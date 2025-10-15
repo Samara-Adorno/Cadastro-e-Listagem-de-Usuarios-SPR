@@ -25,19 +25,18 @@ O foco é demonstrar separação de responsabilidades e aplicação correta das 
 ├─ src/ 
 │ 
 │  ├─ Application/ 
-│  │  ├─ UserService.php    | Orquestra a criação e listagem dos usuários, chamando o validador e o repositório. |
+│  └─  UserService.php    | Orquestra a criação e listagem dos usuários, chamando o validador e o repositório. |
 │  ├─ Domain/ 
-│  │  └─ UserRepository.php  | Repositório do projeto. |
-|  |  └─ UserValidator.php  | Valida os dados do usuário (nome e preço). |
-validação 
-│  └─ Infra/ 
-│     └─ FileUserRepository.php   | Lê e grava os usuários no arquivo storage/products.txt. |
+│  └─ UserRepository.php  | Repositório do projeto. |
+|  └─ UserValidator.php  | Valida os dados do usuário (nome e preço). |
+│  ├─ Infra/ 
+│  └─ FileUserRepository.php   | Lê e grava os usuários no arquivo storage/products.txt. |
 ├─ public/ 
-│  ├─ index.php                 | Formulário de cadastro de usuário. | 
-│  ├─ register.php               | Recebe POST e chama o service. | 
+│  └─  index.php                 | Formulário de cadastro de usuário. | 
+│  └─  register.php               | Recebe POST e chama o service. | 
 │  └─ users.php             | Tabela com a lista os usuários cadastrados (somente leitura). | 
-└─ storage/ 
-   └─users.txt              | JSON por linha contendo a lista dos usuários cadastrados. |
+├─ storage/ 
+|  └─  users.txt              | JSON por linha contendo a lista dos usuários cadastrados. |
 
 
 
