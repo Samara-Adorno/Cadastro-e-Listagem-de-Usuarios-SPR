@@ -47,7 +47,7 @@ validação
 3.  password: deve ter no mínimo 8 caracteres.
 4.  Dados são salvos no arquivo storage/users.txt (um JSON por linha).
 
-## 🛠️ Limitações
+## 🛠 Limitações
 
 1. Sem banco de dados;
 2. Sem frameworks;
@@ -60,9 +60,53 @@ validação
 1.  Clonar o repositório:
     bash
     git clone [https://github.com/Samara-Adorno/Cadastro-e-Listagem-de-Usuarios-SPR.git].
+    
 
+2.  Entrar na pasta do projeto:
+    bash
+    cd Cadastro-e-Listagem-de-Usuários-SPR
+    
 
-## 🧑‍🎓 Nomes dos discentes e RAs
+3.  Instalar dependências do Composer:
+    bash
+    composer install
+    
+
+4.  Subir o servidor local (via XAMPP):
+    * Coloque a pasta do projeto dentro de htdocs.
+
+5.  Acesse no navegador:
+    
+    http://localhost/Cadastro-e-Listagem-de-Usuarios-SPR/public/
+    
+
+## 🧪 Casos de Teste Manuais
+
+| Caso | Entrada | Resultado Esperado |
+| :--- | :--- | :--- |
+| ✅ Caso 1 – Cadastro de usuário válido | name = "Peter Paker, email = "peterpaker@email.com", password = 12345678 | usuário é cadastrado e aparece na listagem. HTTP 201 (Created). |
+| ❌ Caso 2 – E-mail é obrigatório ser válido | email = "peter" | Cadastro rejeitado e-mail precisa ser válido. Exibe mensagem de validação. |
+| ❌ Caso 3 – Senha Muito curta | password = 123| Cadastro rejeitado pois a senha não tem no mínimo 8 caracteres| Exibe mensagem de erro: Erro ao cadastrar usuário. Verifique os dados e tente novamente. |
+| ⚪ Caso 4 – Listagem vazia | Arquivo storage/users.txt está vazio. | Página exibe mensagem “Nenhum usuário cadastrado”. |
+| 📦 Caso 5 – Listagem com itens | Existem usuários cadastrados. | Página exibe uma tabela com colunas: Nome, E-mail. Dados correspondem ao conteúdo do arquivo. |
+
+## 🧠 Conceitos Aplicados
+
+* SRP (Single Responsibility Principle): cada classe tem uma função clara e única.
+* PSR-4: carregamento automático via Composer.
+* Camadas bem definidas: Domain, Infra, Application e public.
+* Sem dependência de banco de dados: persistência simples em arquivo texto.
+
+## 📌 Critérios de Aceite
+
+* Projeto roda em http://localhost/Cadastro-e-Listagem-de-Usuarios-SPR/public/index.php.
+* UserService não contém echo ou lógica de I/O.
+* FileUserRepository é o único que lê e grava o arquivo.
+* UserValidator faz apenas validação.
+* Código segue PSR-12.
+* README completo com instruções e casos de teste.
+
+### 🧑‍🎓 Nomes dos discentes e RAs
 
 | Nome do Discente | RA        |
 | ---------------- | --------- |
